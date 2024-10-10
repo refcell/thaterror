@@ -1,17 +1,15 @@
 [package]
-name = "thiserror"
+name = "thaterror"
 version = "1.0.64"
-authors = ["David Tolnay <dtolnay@gmail.com>"]
+authors = ["David Tolnay <dtolnay@gmail.com>", "refcell <abigger87@gmail.com>"]
 categories = ["rust-patterns"]
 description = "derive(Error)"
-documentation = "https://docs.rs/thiserror"
+documentation = "https://docs.rs/thaterror"
 edition = "2021"
 keywords = ["error", "error-handling", "derive"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/dtolnay/thiserror"
+repository = "https://github.com/refcell/thaterror"
 rust-version = "1.56"
-
-# without the `std` feature (i.e. `no_std`): rust-version = "1.81"
 
 [dependencies]
 thiserror-impl = { version = "=1.0.64", path = "impl" }

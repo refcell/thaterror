@@ -7,17 +7,16 @@
 //! <br>
 //!
 //! This library provides a convenient derive macro for the standard library's
-//! [`std::error::Error`] trait.
+//! [`core::error::Error`] trait.
 //!
-//! [`std::error::Error`]: https://doc.rust-lang.org/std/error/trait.Error.html
+//! [`core::error::Error`]: https://doc.rust-lang.org/core/error/trait.Error.html
 //!
 //! <br>
 //!
 //! # Example
 //!
 //! ```rust
-//! # use std::io;
-//! use thiserror::Error;
+//! use thaterror::Error;
 //!
 //! #[derive(Error, Debug)]
 //! pub enum DataStoreError {
