@@ -1,10 +1,10 @@
 derive(Error)
 =============
 
-[<img alt="github" src="https://img.shields.io/badge/github-refcell/thaterror-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/refcell/thaterror)
-[<img alt="crates.io" src="https://img.shields.io/crates/v/thaterror.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/thaterror)
-[<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-thaterror-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/thaterror)
-[<img alt="build status" src="https://img.shields.io/github/actions/workflow/status/refcell/thaterror/ci.yml?branch=master&style=for-the-badge" height="20">](https://github.com/refcell/thaterror/actions?query=branch%3Amaster)
+[<img alt="github" src="https://img.shields.io/badge/github-refcell/noerror-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/refcell/noerror)
+[<img alt="crates.io" src="https://img.shields.io/crates/v/noerror.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/noerror)
+[<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-noerror-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/noerror)
+[<img alt="build status" src="https://img.shields.io/github/actions/workflow/status/refcell/noerror/ci.yml?branch=master&style=for-the-badge" height="20">](https://github.com/refcell/noerror/actions?query=branch%3Amaster)
 
 > [!WARNING]
 >
@@ -17,7 +17,7 @@ This library provides a convenient derive macro for the standard library's
 
 ```toml
 [dependencies]
-thaterror = "1.0"
+noerror = "1.0"
 ```
 
 *Compiler support: requires rustc 1.56+*
@@ -27,7 +27,7 @@ thaterror = "1.0"
 ## Example
 
 ```rust
-use thaterror::Error;
+use noerror::Error;
 
 #[derive(Error, Debug)]
 pub enum DataStoreError {

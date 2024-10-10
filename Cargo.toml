@@ -1,14 +1,14 @@
 [package]
-name = "thaterror"
+name = "noerror"
 version = "1.0.64"
 authors = ["David Tolnay <dtolnay@gmail.com>", "refcell <abigger87@gmail.com>"]
 categories = ["rust-patterns"]
 description = "derive(Error)"
-documentation = "https://docs.rs/thaterror"
+documentation = "https://docs.rs/noerror"
 edition = "2021"
 keywords = ["error", "error-handling", "derive"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/refcell/thaterror"
+repository = "https://github.com/refcell/noerror"
 rust-version = "1.56"
 
 [dependencies]
